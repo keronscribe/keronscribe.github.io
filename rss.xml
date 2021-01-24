@@ -9,7 +9,7 @@
     <channel>
         <title>keronScribe</title>
         <link>https://keronscribe.github.io/</link>
-        <description>MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。</description>
+        <description>不小心成為後端工程師之後的修練筆記</description>
         <generator>Hugo 0.80.0 https://gohugo.io/</generator>
         
             <language>zh-CN</language>
@@ -23,10 +23,128 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Sun, 24 Jan 2021 16:57:10 &#43;0900</lastBuildDate>
+        <lastBuildDate>Sun, 24 Jan 2021 19:40:56 &#43;0900</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://keronscribe.github.io/rss.xml" />
         
+        
+            <item>
+                <title>Building Hugo</title>
+                <link>https://keronscribe.github.io/posts/building-hugo/</link>
+                <guid isPermaLink="true">https://keronscribe.github.io/posts/building-hugo/</guid>
+                <pubDate>Sun, 24 Jan 2021 16:56:32 &#43;0900</pubDate>
+                
+                    <author>keronScribe@gmail.com (Cian)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                
+                    <description>&lt;h1 id=&#34;使用-hugo-建立部落格&#34;&gt;使用 hugo 建立部落格&lt;/h1&gt;
+&lt;p&gt;最近覺得自己用 ＷordPress 架的部落格因為功能太多了，也不支持 Markdown，寫 blog 的成本變得挺高的，所以想要來見一個單純一點的地方放自己的筆記。一切精簡化，所以也不想煩惱域名之類，最後選了沒有用過的 Hugo 架在 GitHub 上。&lt;/p&gt;
+&lt;h2 id=&#34;需求&#34;&gt;需求&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;brew&lt;/li&gt;
+&lt;li&gt;Git&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;安裝-hugo&#34;&gt;安裝 hugo&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;安裝&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;brew install hugo
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;確認安裝狀況&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;hugo version
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;印出版本代表有安裝成功&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Hugo Static Site Generator v0.80.0/extended darwin/amd64 BuildDate: unknown
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;用 hugo 生成 blog&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;hugo new site {blog name}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;這時候用 &lt;code&gt;ls&lt;/code&gt; 可以發現有一個你的 blog name 的資料夾， &lt;code&gt;cd&lt;/code&gt; 到裡面看大概有這些東西，你現在在的這個資料夾就是 blog 的根目錄&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;drwxr-xr-x  3 username  staff  96 Jan 24 15:01 archetypes
+-rw-r--r--  1 username  staff  82 Jan 24 15:01 config.toml
+drwxr-xr-x  2 username  staff  64 Jan 24 15:01 content
+drwxr-xr-x  2 username  staff  64 Jan 24 15:01 data
+drwxr-xr-x  2 username  staff  64 Jan 24 15:01 layouts
+drwxr-xr-x  2 username  staff  64 Jan 24 15:01 static
+drwxr-xr-x  2 username  staff  64 Jan 24 15:01 themes
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;下載主題
+到 &lt;a href=&#34;https://themes.gohugo.io/&#34;&gt;https://themes.gohugo.io/&lt;/a&gt; 選一個主題。
+跟著該主題在 download 裡的教學下載。這裡以我選的主題 meme 為例。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;~ $ cd blog  // 剛剛 hugo 幫你用 blog name 創建的資料夾
+~/blog $ git init
+~/blog $ git submodule add --depth 1 https://github.com/reuixiy/hugo-theme-meme.git themes/meme
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;下載完成後可以 &lt;code&gt; cd themes/&lt;/code&gt; 去確認你有下載完成。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;設置主題&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;提示&lt;/strong&gt;: 每一個主題的設置部分可能會有不同，請參考 GitHub 上面的教學。
+meme 提供簡單的配置檔，可以直接拿這個檔案取代掉原本的 toml 檔案。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;~/blog $ rm config.toml &amp;amp;&amp;amp; cp themes/meme/config-examples/zh-cn/config.toml config.toml
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;如果有進行其他設定，或者不想直接用這個檔案，可以手動修改主題欄位。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;開始寫文章&#34;&gt;開始寫文章&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;建立文章
+&lt;pre&gt;&lt;code&gt;~/blog $ hugo new &amp;quot;posts/hello-world.md&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;這時 hugo 會在 &lt;code&gt;blog/content/&lt;/code&gt; 底下創建
+&lt;code&gt;posts/hello-world.md&lt;/code&gt;，想確認的話可以自己 &lt;code&gt;cd&lt;/code&gt; 進去用 &lt;code&gt;ls&lt;/code&gt; 確認。
+然後我會用 VScode 打開檔案寫文章。
+寫完之後存擋就可以了&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;預覽自己寫好的文章
+&lt;pre&gt;&lt;code&gt;~/blog $ hugo server
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;這個指令會跑一個在本地的 server，可以方便我們預覽文章。
+如果你的檔案還是草稿，但你想要預覽，可以在後面加上 flag &lt;code&gt;-D&lt;/code&gt; 來檢視還是草稿的文章。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;部署到-github&#34;&gt;部署到 GitHub&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;到你自己的 GitHub 上去，點開 Create a new repository，Repository name 一定要寫全小寫的自己 GitHub 名字＋github.io
+這個我沒有深究原因，大概是因為網址地址會長這樣所以直接這樣命名吧。如果有人知道詳細原因可以再留言和我說。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Build&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;hugo --baseUrl=&amp;quot;https://keronscribe.github.io/&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;這個指令會在根目錄下生成一個 public 資料夾，裡面是把 content 得東西轉成 html 的檔案。這就是我們要推上 GitHub 的東西們。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;git init 本地 public 資料夾
+到 &lt;code&gt;/public/&lt;/code&gt; 裡，init 一個 git repo&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git init
+git add .
+git commit -m &amp;quot;my 1st commit&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;連到遠端&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git remote add origin https://github.com/{github account}/{github repo}.git // 這一行在 GitHub 的初始 repo 裡應該也有
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;推上去&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git push -u origin master
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;完成。現在就可以透過你的 baseURL 連到你的 blog 了。
+有時候 deploy 可能需要花一些些時間，另外有可能 GitHub page 也要打開。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Hugo 還有不少相關指令可以使用，有興趣的朋友可以自己上 &lt;a href=&#34;https://gohugo.io/commands/hugo/&#34;&gt;館方網站&lt;/a&gt;看。
+感謝你的閱讀，希望大家架 Blog 順利。&lt;/p&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                    
+                
+            </item>
         
     </channel>
 </rss>
