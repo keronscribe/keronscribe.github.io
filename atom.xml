@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
+    <title type="text">keronScribe</title>
+    <subtitle type="html">MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。</subtitle>
+    <updated>2021-01-24T16:02:09&#43;09:00</updated>
+    <id>https://keronscribe.github.io/</id>
+    <link rel="alternate" type="text/html" href="https://keronscribe.github.io/" />
+    <link rel="self" type="application/atom&#43;xml" href="https://keronscribe.github.io/atom.xml" />
+    <author>
+            <name>Cian</name>
+            <uri>https://keronscribe.github.io/</uri>
+            
+                <email>keronScribe@gmail.com</email>
+            </author>
+    <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
+    <generator uri="https://gohugo.io/" version="0.80.0">Hugo</generator>
+        <entry>
+            <title type="text">Hello World</title>
+            <link rel="alternate" type="text/html" href="https://keronscribe.github.io/posts/hello-world/" />
+            <id>https://keronscribe.github.io/posts/hello-world/</id>
+            <updated>2021-01-24T15:40:45&#43;09:00</updated>
+            <published>2021-01-24T15:34:44&#43;09:00</published>
+            <author>
+                    <name>Cian</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>keronScribe@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">使用 hugo 建立部落格 事前準備 需要有 brew 建立手順 安裝 hugo 安裝 1 brew install hugo 確認安裝狀況 1 hugo version 印出版本……</summary>
+            
+                <content type="html">&lt;h1 id=&#34;使用-hugo-建立部落格&#34;&gt;使用 hugo 建立部落格&lt;/h1&gt;
+&lt;h2 id=&#34;事前準備&#34;&gt;事前準備&lt;/h2&gt;
+&lt;p&gt;需要有 brew&lt;/p&gt;
+&lt;h2 id=&#34;建立手順&#34;&gt;建立手順&lt;/h2&gt;
+&lt;h3 id=&#34;安裝-hugo&#34;&gt;安裝 hugo&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;安裝&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;brew install hugo
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;確認安裝狀況&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;hugo version
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;印出版本代表有安裝成功&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;Hugo Static Site Generator v0.80.0/extended darwin/amd64 BuildDate: unknown
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;用 hugo 生成 blog&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;hugo new site &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;blog name&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;這時候用 &lt;code&gt;ls&lt;/code&gt; 可以發現有一個你的 blog name 的資料夾， &lt;code&gt;cd&lt;/code&gt; 到裡面看大概有這些東西，你現在在的這個資料夾就是 blog 的根目錄&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;drwxr-xr-x  &lt;span class=&#34;m&#34;&gt;3&lt;/span&gt; username  staff  &lt;span class=&#34;m&#34;&gt;96&lt;/span&gt; Jan &lt;span class=&#34;m&#34;&gt;24&lt;/span&gt; 15:01 archetypes
+-rw-r--r--  &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt; username  staff  &lt;span class=&#34;m&#34;&gt;82&lt;/span&gt; Jan &lt;span class=&#34;m&#34;&gt;24&lt;/span&gt; 15:01 config.toml
+drwxr-xr-x  &lt;span class=&#34;m&#34;&gt;2&lt;/span&gt; username  staff  &lt;span class=&#34;m&#34;&gt;64&lt;/span&gt; Jan &lt;span class=&#34;m&#34;&gt;24&lt;/span&gt; 15:01 content
+drwxr-xr-x  &lt;span class=&#34;m&#34;&gt;2&lt;/span&gt; username  staff  &lt;span class=&#34;m&#34;&gt;64&lt;/span&gt; Jan &lt;span class=&#34;m&#34;&gt;24&lt;/span&gt; 15:01 data
+drwxr-xr-x  &lt;span class=&#34;m&#34;&gt;2&lt;/span&gt; username  staff  &lt;span class=&#34;m&#34;&gt;64&lt;/span&gt; Jan &lt;span class=&#34;m&#34;&gt;24&lt;/span&gt; 15:01 layouts
+drwxr-xr-x  &lt;span class=&#34;m&#34;&gt;2&lt;/span&gt; username  staff  &lt;span class=&#34;m&#34;&gt;64&lt;/span&gt; Jan &lt;span class=&#34;m&#34;&gt;24&lt;/span&gt; 15:01 static
+drwxr-xr-x  &lt;span class=&#34;m&#34;&gt;2&lt;/span&gt; username  staff  &lt;span class=&#34;m&#34;&gt;64&lt;/span&gt; Jan &lt;span class=&#34;m&#34;&gt;24&lt;/span&gt; 15:01 themes
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;下載主題
+到 &lt;a href=&#34;https://themes.gohugo.io/&#34;&gt;https://themes.gohugo.io/&lt;/a&gt; 選一個主題。
+跟著該主題在 download 裡的教學下載。這裡以我選的主題 meme 為例。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;~ $ &lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; blog  // 剛剛 hugo 幫你用 blog name 創建的資料夾
+~/blog $ git init
+~/blog $ git submodule add --depth &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt; https://github.com/reuixiy/hugo-theme-meme.git themes/meme
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;下載完成後可以 &lt;code&gt; cd themes/&lt;/code&gt; 去確認你有下載完成。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;設置主題
+:::info
+:bulb: &lt;strong&gt;提示&lt;/strong&gt;: 每一個主題的設置部分可能會有不同，請參考 GitHub 上面的教學。
+:::
+meme 提供簡單的配置檔，可以直接拿這個檔案取代掉原本的 toml 檔案。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;~/blog $ rm config.toml &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; cp themes/meme/config-examples/zh-cn/config.toml config.toml
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;如果有進行其他設定，或者不想直接用這個檔案，可以手動修改主題欄位。&lt;/p&gt;
+&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;開始寫文章
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;~/blog $ hugo new &lt;span class=&#34;s2&#34;&gt;&amp;#34;posts/hello-world.md&amp;#34;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;這時 hugo 會在 &lt;code&gt;blog/content/&lt;/code&gt; 底下創建
+&lt;code&gt;posts/hello-world.md&lt;/code&gt;，想確認的話可以自己 &lt;code&gt;cd&lt;/code&gt; 進去用 &lt;code&gt;ls&lt;/code&gt; 確認。
+然後我會用 VScode 打開檔案寫文章。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                
+            
+        </entry>
+    
+</feed>
