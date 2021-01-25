@@ -5,6 +5,16 @@
     <link>https://keronscribe.github.io/tags/</link>
     <description>Recent content in Tags on keronScribe</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://keronscribe.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sun, 24 Jan 2021 16:56:32 +0900</lastBuildDate><atom:link href="https://keronscribe.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo</title>
+      <link>https://keronscribe.github.io/tags/hugo/</link>
+      <pubDate>Sun, 24 Jan 2021 16:56:32 +0900</pubDate>
+      
+      <guid>https://keronscribe.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

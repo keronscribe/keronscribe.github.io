@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on keronScribe</title>
+    <link>https://keronscribe.github.io/tags/hugo/</link>
+    <description>Recent content in Hugo on keronScribe</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 24 Jan 2021 16:56:32 +0900</lastBuildDate><atom:link href="https://keronscribe.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building Hugo</title>
+      <link>https://keronscribe.github.io/post/building-hugo/</link>
+      <pubDate>Sun, 24 Jan 2021 16:56:32 +0900</pubDate>
+      
+      <guid>https://keronscribe.github.io/post/building-hugo/</guid>
+      <description>最近覺得自己用 ＷordPress 架的部落格因為功能太多了，也不支持 Markdown，寫 blog 的成本變得挺高的，所以想要來建一個單純一點的地方放自</description>
+    </item>
+    
+  </channel>
+</rss>
