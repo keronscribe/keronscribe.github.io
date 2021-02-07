@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>php on keronScribe</title>
+    <link>https://keronscribe.github.io/tags/php/</link>
+    <description>Recent content in php on keronScribe</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 28 Jan 2021 11:56:37 +0900</lastBuildDate><atom:link href="https://keronscribe.github.io/tags/php/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PHP 英數字、空白全半形轉換</title>
+      <link>https://keronscribe.github.io/post/php-full-width-half-width-convert/</link>
+      <pubDate>Thu, 28 Jan 2021 11:56:37 +0900</pubDate>
+      
+      <guid>https://keronscribe.github.io/post/php-full-width-half-width-convert/</guid>
+      <description>PHP 英數字、空白全半形轉換 PHP 裡面有一個英數字全半形互換的函式，這個函式在中文圈內似乎不太為人所知，但在日文世界裡卻廣泛被使用，mb_conve</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -2,6 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://keronscribe.github.io/</loc>
+    <lastmod>2021-01-28T11:56:37+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://keronscribe.github.io/tags/php/</loc>
+    <lastmod>2021-01-28T11:56:37+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://keronscribe.github.io/post/php-full-width-half-width-convert/</loc>
+    <lastmod>2021-01-28T11:56:37+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://keronscribe.github.io/post/</loc>
+    <lastmod>2021-01-28T11:56:37+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://keronscribe.github.io/tags/</loc>
+    <lastmod>2021-01-28T11:56:37+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://keronscribe.github.io/post/building-hugo/</loc>
     <lastmod>2021-01-24T16:56:32+09:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -16,22 +51,7 @@
   </url>
   
   <url>
-    <loc>https://keronscribe.github.io/</loc>
-    <lastmod>2021-01-24T16:56:32+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://keronscribe.github.io/post/</loc>
-    <lastmod>2021-01-24T16:56:32+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://keronscribe.github.io/tags/</loc>
-    <lastmod>2021-01-24T16:56:32+09:00</lastmod>
+    <loc>https://keronscribe.github.io/post/draft/%E4%B8%80%E5%80%8B%E4%BA%BA%E6%9D%B1%E4%BA%AC/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
