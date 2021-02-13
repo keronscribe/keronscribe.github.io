@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>前端小專案 on keronScribe</title>
+    <link>https://keronscribe.github.io/tags/%E5%89%8D%E7%AB%AF%E5%B0%8F%E5%B0%88%E6%A1%88/</link>
+    <description>Recent content in 前端小專案 on keronScribe</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 26 Jan 2021 02:24:38 +0900</lastBuildDate><atom:link href="https://keronscribe.github.io/tags/%E5%89%8D%E7%AB%AF%E5%B0%8F%E5%B0%88%E6%A1%88/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>前端小project-進度條</title>
+      <link>https://keronscribe.github.io/post/udemy-50-projects-progress-steps/</link>
+      <pubDate>Tue, 26 Jan 2021 02:24:38 +0900</pubDate>
+      
+      <guid>https://keronscribe.github.io/post/udemy-50-projects-progress-steps/</guid>
+      <description>最近跟了一堂 Udemy 上的課，大概每次 30 分鐘帶你做一個小 project，覺得滿親切可人的所以想放鬆的時候就會跟著切一切。 不過跟著做有時候不一定可以想</description>
+    </item>
+    
+  </channel>
+</rss>
