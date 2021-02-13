@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CS on keronScribe</title>
+    <link>https://keronscribe.github.io/tags/cs/</link>
+    <description>Recent content in CS on keronScribe</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 27 Jan 2021 01:35:07 +0900</lastBuildDate><atom:link href="https://keronscribe.github.io/tags/cs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CPU 架構</title>
+      <link>https://keronscribe.github.io/post/cpu-20210127/</link>
+      <pubDate>Wed, 27 Jan 2021 01:35:07 +0900</pubDate>
+      
+      <guid>https://keronscribe.github.io/post/cpu-20210127/</guid>
+      <description>常見的 CPU 架構有兩種：精簡指令集 (RISC) 與複雜指令集 (CISC) 系統。 精簡指令集 (RISC) 精簡指令集 (Reduced Instruction Set Computer, RISC) 特色： 微指令集較為精簡，每個指令的執行時間都很短，完成的</description>
+    </item>
+    
+  </channel>
+</rss>

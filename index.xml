@@ -8,6 +8,15 @@
     <language>en</language>
     <lastBuildDate>Thu, 28 Jan 2021 11:56:37 +0900</lastBuildDate><atom:link href="https://keronscribe.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Bookshelf</title>
+      <link>https://keronscribe.github.io/bookshelf/</link>
+      <pubDate>Sun, 07 Feb 2021 11:51:02 +0900</pubDate>
+      
+      <guid>https://keronscribe.github.io/bookshelf/</guid>
+      <description>Cian の本棚にある本たち。技術関係の本やブログ、コースに限ります。サブタイトルは省略しています。 🇹🇼 🇨🇳 🇯🇵 🇺🇸 台灣繁體中文 簡体中文 日本語 English 2021 タ</description>
+    </item>
+    
+    <item>
       <title>PHP 英數字、空白全半形轉換</title>
       <link>https://keronscribe.github.io/post/php-full-width-half-width-convert/</link>
       <pubDate>Thu, 28 Jan 2021 11:56:37 +0900</pubDate>
@@ -17,12 +26,39 @@
     </item>
     
     <item>
+      <title>CPU 架構</title>
+      <link>https://keronscribe.github.io/post/cpu-20210127/</link>
+      <pubDate>Wed, 27 Jan 2021 01:35:07 +0900</pubDate>
+      
+      <guid>https://keronscribe.github.io/post/cpu-20210127/</guid>
+      <description>常見的 CPU 架構有兩種：精簡指令集 (RISC) 與複雜指令集 (CISC) 系統。 精簡指令集 (RISC) 精簡指令集 (Reduced Instruction Set Computer, RISC) 特色： 微指令集較為精簡，每個指令的執行時間都很短，完成的</description>
+    </item>
+    
+    <item>
+      <title>Udemy 50 Projects Progress Steps</title>
+      <link>https://keronscribe.github.io/post/udemy-50-projects-progress-steps/</link>
+      <pubDate>Tue, 26 Jan 2021 02:24:38 +0900</pubDate>
+      
+      <guid>https://keronscribe.github.io/post/udemy-50-projects-progress-steps/</guid>
+      <description>最近跟了一堂 Udemy 上的課，大概每次 30 分鐘帶你做一個小 project，覺得滿親切可人的所以想放鬆的時候就會跟著切一切。 不過跟著做有時候不一定可以想</description>
+    </item>
+    
+    <item>
       <title>Building Hugo</title>
       <link>https://keronscribe.github.io/post/building-hugo/</link>
       <pubDate>Sun, 24 Jan 2021 16:56:32 +0900</pubDate>
       
       <guid>https://keronscribe.github.io/post/building-hugo/</guid>
       <description>最近覺得自己用 ＷordPress 架的部落格因為功能太多了，也不支持 Markdown，寫 blog 的成本變得挺高的，所以想要來建一個單純一點的地方放自</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://keronscribe.github.io/seminars/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://keronscribe.github.io/seminars/</guid>
+      <description></description>
     </item>
     
   </channel>

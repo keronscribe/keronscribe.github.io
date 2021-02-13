@@ -17,6 +17,24 @@
     </item>
     
     <item>
+      <title>CPU 架構</title>
+      <link>https://keronscribe.github.io/post/cpu-20210127/</link>
+      <pubDate>Wed, 27 Jan 2021 01:35:07 +0900</pubDate>
+      
+      <guid>https://keronscribe.github.io/post/cpu-20210127/</guid>
+      <description>常見的 CPU 架構有兩種：精簡指令集 (RISC) 與複雜指令集 (CISC) 系統。 精簡指令集 (RISC) 精簡指令集 (Reduced Instruction Set Computer, RISC) 特色： 微指令集較為精簡，每個指令的執行時間都很短，完成的</description>
+    </item>
+    
+    <item>
+      <title>Udemy 50 Projects Progress Steps</title>
+      <link>https://keronscribe.github.io/post/udemy-50-projects-progress-steps/</link>
+      <pubDate>Tue, 26 Jan 2021 02:24:38 +0900</pubDate>
+      
+      <guid>https://keronscribe.github.io/post/udemy-50-projects-progress-steps/</guid>
+      <description>最近跟了一堂 Udemy 上的課，大概每次 30 分鐘帶你做一個小 project，覺得滿親切可人的所以想放鬆的時候就會跟著切一切。 不過跟著做有時候不一定可以想</description>
+    </item>
+    
+    <item>
       <title>Building Hugo</title>
       <link>https://keronscribe.github.io/post/building-hugo/</link>
       <pubDate>Sun, 24 Jan 2021 16:56:32 +0900</pubDate>
